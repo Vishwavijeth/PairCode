@@ -1,0 +1,69 @@
+# -------------------------
+# Python / FastAPI Backend
+# -------------------------
+
+# Virtual environment
+myvenv/
+venv/
+.env/
+*.env
+
+# Python cache
+__pycache__/
+backend/app/**/__pycache__/
+backend/app/**/**/*.pyc
+*.pyc
+
+# Byte-compiled / optimized / DLL files
+*.pyo
+*.pyd
+*.pdb
+
+# MyPy / Pyright
+.mypy_cache/
+.pyright/
+
+# Pytest
+.pytest_cache/
+
+# Build artifacts
+build/
+dist/
+
+# SQLite or other local DBs
+*.sqlite3
+*.db
+
+# -------------------------
+# Node / React Frontend
+# -------------------------
+
+# Node modules
+frontend/node_modules/
+node_modules/
+
+# Build outputs
+frontend/build/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+frontend/.env
+*.env.local
+
+# -------------------------
+# OS / Editor Files
+# -------------------------
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VSCode
+.vscode/
