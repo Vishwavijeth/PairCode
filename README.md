@@ -208,32 +208,6 @@ See `backend/README.md` for detailed API documentation.
 - `VITE_API_URL`: Backend API URL (default: `http://localhost:8000`)
 - `VITE_WS_URL`: WebSocket URL (default: `ws://localhost:8000`)
 
-## 🚧 Limitations
 
-1. **No Authentication**: Rooms are accessible to anyone with the room ID
-2. **Simple Sync**: Uses last-write-wins approach
-3. **Mocked Autocomplete**: Suggestions are rule-based, not AI-powered
-4. **Single Server**: Not designed for horizontal scaling
-5. **No User Presence**: Doesn't show who is currently editing
-6. **No History**: No code history or undo/redo functionality
 
-## 🎨 Future Improvements
 
-1. **Operational Transform (OT) or CRDTs**: Proper conflict resolution
-2. **User Presence**: Show active users, cursors, and selections
-3. **Code History**: Version history and undo/redo
-4. **Real AI Autocomplete**: Integrate with OpenAI Codex or GitHub Copilot
-5. **Authentication**: User authentication and authorization
-6. **Room Permissions**: Read-only, read-write permissions
-7. **Syntax Highlighting**: Enhanced code editor with Monaco or CodeMirror
-8. **File Management**: Support multiple files per room
-9. **Horizontal Scaling**: Redis pub/sub for multi-server support
-10. **Testing**: Comprehensive unit and integration tests
-
-## 📄 License
-
-This project is for demonstration purposes.
-
-## 🤝 Contributing
-
-This is a demonstration project. Feel free to fork and modify as needed.
